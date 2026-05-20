@@ -1,1 +1,10 @@
-customer-service.yml
+spring:
+  application:
+    name: demo-customer-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/demo_customer_master
+    driverClassName: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
