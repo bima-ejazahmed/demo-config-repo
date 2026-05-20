@@ -8,5 +8,5 @@ spring:
     password: Pass@1234
   jpa:
     hibernate:
-      ddl-auto: none
-    show-sql: false
+      ddl-auto: create
+    show-sql: true
