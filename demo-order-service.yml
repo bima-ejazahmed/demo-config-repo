@@ -2,8 +2,8 @@ spring:
   application:
     name: demo-order-service
   datasource:
-    url: jdbc:mysql://localhost:3306/demo_order_master
-    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:h2:mem:demo_order_master_dev
+    driverClassName: com.h2.Driver
   jpa:
     hibernate:
       ddl-auto: none
