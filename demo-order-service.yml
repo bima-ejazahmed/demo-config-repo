@@ -8,5 +8,5 @@ spring:
     driverClassName: org.h2.Driver
   jpa:
     hibernate:
-      ddl-auto: none
+      ddl-auto: create
     show-sql: false
